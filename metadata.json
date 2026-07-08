@@ -1,0 +1,5 @@
+{
+  "name": "SORECO-1 Consumer Portal",
+  "description": "A Web-Based Integrated Consumer Service Portal for SORECO-1 utility cooperative, featuring billing disputes, reconnection requests, real-time service tracking, and an analytics dashboard.",
+  "requestFramePermissions": []
+}
