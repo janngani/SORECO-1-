@@ -1,10 +1,10 @@
-# Cooperative Consumer & Admin Service Portal
+Cooperative Consumer & Admin Service Portal
 
 A fully featured, responsive client-server portal built for cooperative consumers to file service requests (e.g., reconnection, billing disputes, ticket follow-ups) and for administrators to manage tickets, dispatch crews, and communicate with consumers.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - **Consumer Dashboard**: Seamlessly request reconnections, file billing disputes, send follow-up messages in real time, and rate ticket resolutions.
 - **Admin Control Center**: Complete ticketing workspace to review inquiries, update status, dispatch crews, maintain announcements, and update cooperative system settings.
@@ -13,7 +13,7 @@ A fully featured, responsive client-server portal built for cooperative consumer
 
 ---
 
-## 🗄️ Database Schema & Supabase Setup
+##  Database Schema & Supabase Setup
 
 To hook the portal up to your **Supabase Cloud Database**, navigate to your Supabase SQL Editor and run the complete SQL script below. 
 
@@ -101,7 +101,7 @@ ALTER TABLE inquiries DISABLE ROW LEVEL SECURITY;
 
 ---
 
-## ⚙️ Environment Variables
+##  Environment Variables
 
 Configure your `.env` file at the root of the project to allow the application server and frontend client to connect with Supabase:
 
@@ -117,7 +117,7 @@ SUPABASE_SERVICE_ROLE_KEY=your-supabase-service-role-key
 
 ---
 
-## 🛠️ Tech Stack & Structure
+##  Tech Stack & Structure
 
 - **Frontend**: React 18 (JS & JSX), Vite, Tailwind CSS, Lucide Icons, Recharts, Framer Motion (for animations).
 - **Backend**: Express Server running on Node.js.
